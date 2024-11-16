@@ -3,102 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mahbubur Rahman's Portfolio</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Optional, for favicon -->
+    <title>Mahbubur Rahman - Python Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
         }
-        h1, h2 {
+        header h1 {
             margin: 0;
         }
-        p {
-            margin: 10px 0;
+        section {
+            margin: 2rem;
+        }
+        h2 {
+            color: #333;
         }
         ul {
-            list-style: none;
+            list-style-type: none;
             padding: 0;
         }
-        li {
-            margin: 10px 0;
+        ul li {
+            margin: 5px 0;
         }
-        a {
-            color: #007bff;
-            text-decoration: none;
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
         }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .skills ul li {
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
         }
         footer {
-            padding: 10px;
             background-color: #333;
             color: white;
-            margin-top: 20px;
+            padding: 1rem;
+            text-align: center;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Mahbubur Rahman</h1>
+        <p>Python Developer | Django Developer</p>
+    </header>
 
-<header>
-    <h1>Mahbubur Rahman</h1>
-    <p>Python/Django Full Stack Developer</p>
-</header>
+    <section class="about">
+        <h2>About Me</h2>
+        <p><strong>Email:</strong> rahman500mr@gmail.com</p>
+        <p><strong>Mobile No:</strong> 9032150744 / 9939164020</p>
+        <p>
+            To grow with the growth of the organization and utilize my skills and abilities in industries that offer professional growth while being resourceful, innovative, and flexible.
+        </p>
+    </section>
 
-<div class="container">
-    <section>
-        <h2>Skills</h2>
+    <section class="experience">
+        <h2>Professional Experience</h2>
         <ul>
-            <li>Python, Django, Flask</li>
-            <li>JavaScript, React, HTML5, CSS3</li>
-            <li>MySQL, PostgreSQL, SQLite</li>
-            <li>Git, GitHub, CI/CD</li>
+            <li><strong>Python Developer</strong> - Logic Square Pvt Ltd, Pune (October 2020 - Present)</li>
+            <li>Developed and managed highly interactive Django-based applications.</li>
+            <li>Handled CRUD operations for product management, order tracking, and customer management in eCommerce projects like ShopEase.</li>
+            <li>Implemented Django Rest Framework for API integration and performed API testing with Postman.</li>
+            <li>Created views, models, and templates for web applications.</li>
         </ul>
     </section>
 
-    <section>
+    <section class="projects">
         <h2>Projects</h2>
+        <h3>1. ShopEase</h3>
+        <p>A Django-based eCommerce platform for product management, order tracking, and customer account management.</p>
+        <p><strong>Technologies:</strong> PostgreSQL, Django, Python, HTML/CSS, JavaScript, REST APIs</p>
+
+        <h3>2. ROBOCoP</h3>
+        <p>A Manager (Admin) based authentication system where Admin can create users and assign permissions.</p>
+        <p><strong>Technologies:</strong> PostgreSQL, Django, Python, Excel, Selenium WebDriver, Pandas</p>
+
+        <h3>3. Customer Appointment Booking System</h3>
+        <p>A system where patients can book appointments and meet doctors based on a unique token number.</p>
+        <p><strong>Technologies:</strong> PostgreSQL, Django, Python, Excel, Selenium WebDriver, Pandas</p>
+    </section>
+
+    <section class="skills">
+        <h2>Technical Skills</h2>
         <ul>
-            <li>
-                <a href="https://github.com/mahbuburrahman/project1">E-Commerce Platform</a> - A Django-based online store.
-            </li>
-            <li>
-                <a href="https://github.com/mahbuburrahman/project2">Blog CMS</a> - A content management system for blogs.
-            </li>
+            <li>Python, Django, Django Rest Framework</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>PostgreSQL, MySQL</li>
+            <li>API Development and Testing (Postman)</li>
+            <li>Git, Docker</li>
+            <li>Excel, Pandas</li>
         </ul>
     </section>
 
-    <section>
-        <h2>Contact Me</h2>
+    <section class="education">
+        <h2>Academic Records</h2>
         <ul>
-            <li>Email: <a href="mailto:mahbuburrahman@example.com">mahbuburrahman@example.com</a></li>
-            <li><a href="https://linkedin.com/in/mahbuburrahman">LinkedIn</a></li>
-            <li><a href="https://github.com/mahbuburrahman">GitHub</a></li>
+            <li><strong>B.Tech:</strong> Kasireddy Narayan Reddy College of Engineering & Research, JNTUH, Hyderabad (2020)</li>
+            <li><strong>12th:</strong> L.N.J College Jhanjharpur, BSEB (2016)</li>
         </ul>
     </section>
-</div>
 
-<footer>
-    <p>&copy; 2024 Mahbubur Rahman</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2024 Mahbubur Rahman. All rights reserved.</p>
+    </footer>
 </body>
 </html>
